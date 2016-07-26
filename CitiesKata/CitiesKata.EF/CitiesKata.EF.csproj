@@ -54,7 +54,6 @@
     <Compile Include="Entities\City.cs" />
     <Compile Include="Entities\Country.cs" />
     <Compile Include="Initializer\CitiesKataInitializer.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

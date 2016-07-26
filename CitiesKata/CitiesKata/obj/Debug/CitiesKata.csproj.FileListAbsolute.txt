@@ -57,3 +57,9 @@ C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\bi
 C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\obj\Debug\CitiesKata.csprojResolveAssemblyReference.cache
 C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\obj\Debug\CitiesKata.dll
 C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\obj\Debug\CitiesKata.pdb
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\bin\CitiesKata.EF.dll
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\bin\EntityFramework.dll
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\bin\CitiesKata.EF.pdb
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\bin\EntityFramework.xml
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\bin\EntityFramework.SqlServer.dll
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata\bin\EntityFramework.SqlServer.xml
