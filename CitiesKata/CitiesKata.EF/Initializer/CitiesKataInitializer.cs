@@ -9,33 +9,13 @@ namespace CitiesKata.EF.Initializer
     {
         protected override void Seed(CitiesKataContext context)
         {
-            var attractions = new List<Attraction>()
-            {
-                new Attraction("Football"),
-                new Attraction("Bars"),
-                new Attraction("Music"),
-                new Attraction("City Walls"),
-                new Attraction("Cathedral"),
-                new Attraction("Casinos"),
-                new Attraction("Grand Canyon"),
-                new Attraction("Shows"),
-                new Attraction("Forbidden City"),
-                new Attraction("Great Wall of China")
-            };
+            CreateAttractions(context);
+            CreateCountries(context);
+            CreateCities(context);
+        }
 
-            attractions.ForEach(attraction => context.Attractions.Add(attraction));
-            context.SaveChanges();
-
-            var countries = new List<Country>()
-            {
-                new Country("UK"),
-                new Country("USA"),
-                new Country("China")
-            };
-
-            countries.ForEach(country => context.Countries.Add(country));
-            context.SaveChanges();
-
+        private static void CreateCities(CitiesKataContext context)
+        {
             var attractionsManc = new List<Attraction>()
             {
                 context.Attractions.Single(x => x.Name == "Football"),
@@ -78,6 +58,39 @@ namespace CitiesKata.EF.Initializer
             };
 
             cities.ForEach(city => context.Cities.Add(city));
+            context.SaveChanges();
+        }
+
+        private static void CreateCountries(CitiesKataContext context)
+        {
+            var countries = new List<Country>()
+            {
+                new Country("UK"),
+                new Country("USA"),
+                new Country("China")
+            };
+
+            countries.ForEach(country => context.Countries.Add(country));
+            context.SaveChanges();
+        }
+
+        private static void CreateAttractions(CitiesKataContext context)
+        {
+            var attractions = new List<Attraction>()
+            {
+                new Attraction("Football"),
+                new Attraction("Bars"),
+                new Attraction("Music"),
+                new Attraction("City Walls"),
+                new Attraction("Cathedral"),
+                new Attraction("Casinos"),
+                new Attraction("Grand Canyon"),
+                new Attraction("Shows"),
+                new Attraction("Forbidden City"),
+                new Attraction("Great Wall of China")
+            };
+
+            attractions.ForEach(attraction => context.Attractions.Add(attraction));
             context.SaveChanges();
         }
     }

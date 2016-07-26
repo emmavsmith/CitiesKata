@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Web.Http;
 using CitiesKata.EF.DbContext;
+using CitiesKata.Models.Responses;
 
 namespace CitiesKata.Controllers
 {
@@ -18,20 +19,16 @@ namespace CitiesKata.Controllers
 
             foreach (var city in cities)
             {
-                response.Add(new CityResponse(city.Name));
+                var attractions = new List<string>();
+                foreach (var attraction in city.Attractions)
+                {
+                    attractions.Add(attraction.Name);
+                }
+
+                response.Add(new CityResponse(city.Name, city.Country.Name, attractions));
             }
 
             return this.Ok(response);
         }
-    }
-
-    public class CityResponse
-    {
-        public CityResponse(string name)
-        {
-            Name = name;
-        }
-
-        public string Name { get; set; }
     }
 }
