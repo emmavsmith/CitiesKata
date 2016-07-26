@@ -1,0 +1,10 @@
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\bin\Debug\CitiesKata.EF.dll.config
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\bin\Debug\CitiesKata.EF.dll
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\bin\Debug\CitiesKata.EF.pdb
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\bin\Debug\EntityFramework.dll
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\bin\Debug\EntityFramework.xml
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\obj\Debug\CitiesKata.EF.csprojResolveAssemblyReference.cache
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\obj\Debug\CitiesKata.EF.dll
+C:\Users\emmas\Documents\Personal\CitiesKata\CitiesKata\CitiesKata\CitiesKata.EF\obj\Debug\CitiesKata.EF.pdb
