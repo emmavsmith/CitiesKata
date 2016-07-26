@@ -15,7 +15,7 @@ namespace CitiesKata.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Cities Kata Test.";
 
             return View();
         }
